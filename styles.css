@@ -1,0 +1,46 @@
+body{
+    margin: 45px;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: lightcyan;
+}
+
+#intro{
+    
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightgreen;
+}
+.container{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.container #image{
+    align-items:flex-start;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    /*border: 2px solid black;*/
+    padding: 5px;
+    margin: 10px;
+    clip-path: circle(95% at 20% 50%);    
+}
+
+.container #content{
+    font-size: larger;
+    align-content: flex-end;
+    border: 2px;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 10px;;
+}
