@@ -19,13 +19,14 @@ body{
 }
 .container{
     display: flex;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightcyan;
 }
 
 .container #image{
+    display: flex;
+    flex: auto;
     align-items:flex-start;
     width: 700px;
     height: 400px;
@@ -37,7 +38,7 @@ body{
 }
 
 .container #content{
-    font-size: larger;
+    font-size: larger ;
     align-content: flex-end;
     border: 2px;
     border-radius: 30px;
